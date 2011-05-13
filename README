@@ -1,0 +1,9 @@
+Just a quick little program to try out libpq for the first time. Reads in a
+list of libpq-compatible connection strings and executes the same query 
+against them.
+
+Usage:
+
+./pgplay -i sqlfile -f configfile
+
+Use -i - or just pipe STDIN to it if not providing an input file.
